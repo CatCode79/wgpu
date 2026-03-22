@@ -127,7 +127,7 @@ pub mod util;
 pub use backend::custom;
 
 pub use api::*;
-pub use wgt::{
+use wgt::{
     AdapterInfo, AddressMode, AllocatorReport, AstcBlock, AstcChannel, Backend, BackendOptions,
     Backends, BindGroupLayoutEntry, BindingType, BlendComponent, BlendFactor, BlendOperation,
     BlendState, BufferAddress, BufferBindingType, BufferSize, BufferTextureCopyInfo,
